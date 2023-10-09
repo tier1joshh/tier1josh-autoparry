@@ -1,0 +1,7 @@
+        getgenv().config = getgenv().config or {
+            hit_time = 0.5, -- // recommended 0.25 to 0.75 \ --
+            
+            mode = 'Toggle', -- // Hold , Toggle , Always \ --
+            deflect_type = 'Remote', -- // Key Press , Remote \ --
+            notifications = true,
+            keybind = Enum.KeyCode.C
